@@ -1,0 +1,85 @@
+/* بسم الله الرحمن الرحيم  */
+
+/* Global rols */
+*{
+    box-sizing: border-box;
+    font-family : 'work sans';
+}
+/* Body */
+body{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+/* Pareint Div */
+.preant{ 
+    width: 296px;
+    position: absolute;
+    top: 236px;
+    left: 594px;
+    height: 398px;   
+    background-color: #43574b;
+    color: yellow;
+}
+
+
+.name,
+.email{
+    padding-bottom: 10px
+}
+/* Log in OF Buttun */
+.submit{ 
+    position: absolute; 
+    left: 49px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 275px;
+    color: #0ff40f;
+    top: 284px;
+    border: green solid 5px;
+    height: 40px;
+    background-color: white;
+}
+/* paragraph "Icon" */
+p{
+    text-align: center;
+    font-size: 21px;
+    color: #030a1ef0;
+}
+
+/* Arabec */
+a{
+    position: absolute;
+    top: 361px;
+    left: 14px;
+    border-radius: 7px;
+    padding: 5px;
+    text-decoration: none;
+    background:none;
+    border:solid 2px green;
+    color: #0ff40f;
+    background-color: rgb(255 238 217);
+
+}
+/* inputs  v */
+input{
+    height: 23px;
+    background-color: #031b1ef0;
+    color: rgb(248, 248, 63);
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: rgb(7, 70, 7);
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(7, 70, 7);
+    cursor: pointer;
+}
